@@ -4,7 +4,7 @@ const Layout = ({ children }) => {
     <div className="layout">
       <header className="layout-header">
         <h1>JSON Parser & Validator</h1>
-        <p>Advanced JSON parsing with semantic validation and parse tree visualization</p>
+        <p>Advanced JSON parsing</p>
       </header>
       
       <main className="layout-main">
@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
       </main>
       
       <footer className="layout-footer">
-        <p>Built with React + Vite | Backend powered by Python Flask</p>
+        <p>&copy Rajveer Singh</p>
       </footer>
     </div>
   );
