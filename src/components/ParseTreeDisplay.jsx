@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './ParseTreeDisplay.css';
 
 const TreeNode = ({ node, depth = 0, isLast = false, parentPrefix = '' }) => {
   const [isExpanded, setIsExpanded] = useState(true);

@@ -1,4 +1,3 @@
-import './ErrorDisplay.css';
 
 const ErrorDisplay = ({ error, errorType }) => {
   const getErrorTypeInfo = (errorType) => {

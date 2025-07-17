@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import './JsonInput.css';
 
 const JsonInput = ({ onParse, isLoading }) => {
   const [jsonInput, setJsonInput] = useState('');
