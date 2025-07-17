@@ -11,7 +11,7 @@ export default defineConfig({
           vendor: ['react', 'react-dom']
         }
       }
-    }
-  },
-  assetsInclude: ['**/*.css']
+    },
+    cssCodeSplit: false
+  }
 })

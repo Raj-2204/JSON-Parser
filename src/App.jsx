@@ -4,7 +4,6 @@ import JsonInput from './components/JsonInput'
 import ParseTreeDisplay from './components/ParseTreeDisplay'
 import ErrorDisplay from './components/ErrorDisplay'
 import { parseJson } from './services/api'
-import './App.css'
 
 function App() {
   const [parseResult, setParseResult] = useState(null)
